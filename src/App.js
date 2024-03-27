@@ -12,6 +12,8 @@ import ToggleVisibility from "./Components/ToggleVisibility/ToggleVisibility";
 import InputField from "./Components/InputField/InputField";
 import UserPosts from "./Components/UserPosts/UserPosts";
 import ValidatedInput from "./Components/ValidatedInput/ValidatedInput";
+import CountdownTimer from "./Components/CountdownTimer/CountdownTimer";
+import WindowSize from "./Components/WindowSize/WindowSize";
 
 function App() {
   return (
@@ -28,6 +30,9 @@ function App() {
         <Route path="/inputfield" element={<InputField />} />
         <Route path="/userposts" element={<UserPosts />} />
         <Route path="/validatedinput" element={<ValidatedInput />} />
+        <Route path="/countdowntimer" element={<CountdownTimer />} />
+        <Route path="/windowsize" element={<WindowSize />} />
+
       </Routes>
     </BrowserRouter>
   );
